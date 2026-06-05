@@ -1,5 +1,5 @@
 from google import genai
-
+import numpy as np
 
 client = genai.Client(api_key=" ")
 
