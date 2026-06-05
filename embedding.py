@@ -17,7 +17,7 @@ def normalise_l2(cut_dim):
 
 
 response = client.embedding.create(
-    input="cat"
+    input="cat",
     model="text-embedding-3-small"
     )
 
